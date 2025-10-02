@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Social Check-In</title>
+</head>
+<body>
+  <h1>Social Check-In</h1>
+
+  <form>
+    <label for="hoursAlone">How much time do you spend alone each day?</label><br>
+    <input type="number" id="hoursAlone" name="hoursAlone"><br><br>
+
+    <label>Do you experience stage fright?</label><br>
+    <input type="radio" id="stageTrue" name="stageFright" value=1>
+    <label for="stageTrue">Yes</label>
+    <input type="radio" id="stageFalse" name="stageFright" value=0>
+    <label for="stageFalse">No</label><br><br>
+
+    <label for="events">How many social events did you attend recently?</label><br>
+    <input type="number" id="events" name="events"><br><br>
+
+    <label for="outside">How often did you go outside for non-essential reasons recently?</label><br>
+    <input type="number" id="outside" name="outside" min="0" max="10"><br><br>
+
+    <label>Do you feel mentally exhausted after social interaction?</label><br>
+    <input type="radio" id="exhaustedTrue" name="exhausted" value=1>
+    <label for="exhaustedTrue">Yes</label>
+    <input type="radio" id="exhaustedFalse" name="exhausted" value=0>
+    <label for="exhaustedFalse">No</label><br><br>
+
+    <label for="friends">How many close friends are in your social circle?</label><br>
+    <input type="number" id="friends" name="friends"><br><br>
+
+    <label for="posts">How many times do you post something on social media per week?</label><br>
+    <input type="number" id="posts" name="posts"><br><br>
+
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
